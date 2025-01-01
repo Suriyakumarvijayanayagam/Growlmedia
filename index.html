@@ -396,10 +396,23 @@
                         required 
                         style="padding: 15px; border: 1px solid #ddd; border-radius: 8px; height: 150px; font-size: 16px; resize: vertical; background-color: #f8f8f8;"></textarea>
                     
-                    <button type="submit" 
-                        style="background-color: #c4a455; color: white; padding: 15px 40px; border: none; border-radius: 25px; font-size: 16px; cursor: pointer; width: fit-content; transition: background-color 0.3s ease;">
-                        Submit
-                    </button>
+                        <button type="submit" 
+                        style="background-color: #c9b278; 
+                              ; 
+                               padding: 15px 40px; 
+                               border: none; 
+                               font-size: 30px;
+                               border-radius: 25px; 
+                               font-size: 16px; 
+                               cursor: pointer; 
+                               width: fit-content; 
+                               transition: background-color 0.3s ease;" 
+                                onmouseover="this.style.transform='scale(1.1)';"
+                                onmouseout="this.style.transform='scale(1)';"
+                                >
+                    Submit
+                </button>
+                
                 </form>
             </div>
         </div>
@@ -448,13 +461,12 @@
                     // Show loading state
                     const submitButton = event.target.querySelector('button[type="submit"]');
                     const originalText = submitButton.textContent;
-                    submitButton.textContent = 'Sending...';
+                    submitButton.textContent = 'Submit';
 
                     submitButton.disabled = true;
 
-                    delay(1000);
-                    submitButton.textContent = 'Submit';
-                    submitButton.disabled = false;
+                    
+                    
     
                     // Send email using EmailJS
                     const result = await emailjs.send(
