@@ -1,6 +1,6 @@
 body{
 
-  zoom: 1.1; /* 110% zoom */
+  zoom: 1.06; /* 110% zoom */
   
 
 }
@@ -16,6 +16,7 @@ html, body {
   overflow-x: hidden;
   
 }
+
 .growl-media,
 
 .growl-media * {
@@ -143,7 +144,7 @@ html, body {
   color: #000000;
   text-align: center;
   font-family: "Sansation-Bold", sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   position: absolute;
   left: 410.5px;
@@ -154,7 +155,7 @@ html, body {
   color: #0a2419;
   text-align: center;
   font-family: "Sansation-Bold", sans-serif;
-  font-size: 38px;
+  font-size: 50px;
   font-weight: 700;
   position: absolute;
   left: 410.5px;
@@ -168,7 +169,7 @@ html, body {
 .views-across-the-world {
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
-  font-family: "Sansation-Regular", sans-serif;
+  /* font-family: "Sansation-Regular", sans-serif; */
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
@@ -209,11 +210,12 @@ html, body {
 .frame-6 {
   display: flex;
   flex-direction: row;
-  gap: 150px;
+  /* font-family: "Sansation-Bold", sans-serif; */
+  gap: 120px;
   /* align-items: center; */
   justify-content: flex-start;
   position: absolute;
-  left: 50%;
+  left: 51%;
   translate: -50%;
   top: 1227px;
 }
@@ -228,6 +230,7 @@ html, body {
   font-size: 35px;
   line-height: 130%;
   font-weight: 700;
+
 }
 ._6-m-dollar-sales-span2 {
   color: #ffffff;
@@ -363,13 +366,14 @@ html, body {
   left: 50%;
   translate: -50%;
   top: 4240.65px;
-}
-._150-revenue-growth-only-through-content-marketing-brand-building {
+  }
+
+/* ._150-revenue-growth-only-through-content-marketing-brand-building {
   color: #ffffff;
   text-align: center;
   position: relative;
-  /* width: 332px; */
-}
+  width: 332px;  */
+/* }
 ._150-revenue-growth-only-through-content-marketing-brand-building-span {
   color: #ffffff;
   font-family: "Sansation-Bold", sans-serif;
@@ -426,7 +430,120 @@ html, body {
   font-size: 19px;
   line-height: 150%;
   font-weight: 400;
+} 
+
+ */
+
+
+
+
+ ._150-revenue-growth-only-through-content-marketing-brand-building {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  width: 332px;
 }
+._150-revenue-growth-only-through-content-marketing-brand-building-span {
+  color: #ffffff;
+  font-family: "Sansation-Bold", sans-serif;
+  font-size: 42px;
+  line-height: 150%;
+  font-weight: 700;
+}
+._150-revenue-growth-only-through-content-marketing-brand-building-span2 {
+  color: #ffffff;
+  font-family: "Sansation-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+}
+.line-12 {
+  background: #ffffff;
+  margin-top: -1px;
+  opacity: 0.4;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.47) 49.50000047683716%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-image-slice: 1;
+  flex-shrink: 0;
+  width: 111px;
+  height: 0px;
+  
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+._300-followers-daily {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+._300-followers-daily-span {
+  color: #ffffff;
+  font-family: "Sansation-Bold", sans-serif;
+  font-size: 42px;
+  line-height: 150%;
+  font-weight: 700;
+}
+._300-followers-daily-span2 {
+  color: #ffffff;
+  font-family: "Sansation-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+}
+.line-13 {
+  background: #ffffff;
+  margin-top: -1px;
+  opacity: 0.4;
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.47) 49.50000047683716%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-image-slice: 1;
+  flex-shrink: 0;
+  width: 111px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+._5-x-your-engagement-rate {
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+}
+._5-x-your-engagement-rate-span {
+  color: #ffffff;
+  font-family: "Sansation-Bold", sans-serif;
+  font-size: 42px;
+  line-height: 150%;
+  font-weight: 700;
+}
+._5-x-your-engagement-rate-span2 {
+  color: #ffffff;
+  font-family: "Sansation-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+ 
+
+
+
+
+
+
 .line-132 {   
   background: #ffffff;
   opacity: 0.5;
@@ -502,7 +619,7 @@ html, body {
   color: #000000;
   text-align: left;
   font-family: "Sansation-Bold", sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 600;
   position: relative;
   align-self: stretch;
@@ -754,8 +871,9 @@ html, body {
 .to-help-entrepreneurs-individuals-and-business-seekers-transform-into-standout-brands-within-their-niche {
   color: rgba(0, 0, 0, 0.8);
   text-align: center;
+
   font-family: "Sansation-Regular", sans-serif;
-  font-size: 17px;
+  font-size: 22px;
   line-height: 33px;
   font-weight: 400;
   position: relative;
@@ -818,7 +936,7 @@ html, body {
   color: rgba(0, 0, 0, 0.8);
   text-align: left;
   font-family: "Sansation-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 30px;
   font-weight: 400;
   position: relative;
@@ -848,7 +966,7 @@ html, body {
   color: rgba(0, 0, 0, 0.8);
   text-align: left;
   font-family: "Sansation-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 30px;
   font-weight: 400;
   position: relative;
@@ -878,7 +996,7 @@ html, body {
   color: rgba(0, 0, 0, 0.8);
   text-align: left;
   font-family: "Sansation-Regular", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 30px;
   font-weight: 400;
   position: relative;
@@ -3428,11 +3546,11 @@ html, body {
   top: 4691.19px;
 }
 .group-2 {
-  width: 443.62px;
-  height: 439.18px;
+  width: 480.62px;
+  height: 480.18px;
   position: absolute;
   left: 830.06px;
-  top: 4739.98px;
+  top: 4718.98px;
   overflow: visible;
 }
 .image-2024-12-07-t-04-25-40-681-z-1-3 {
