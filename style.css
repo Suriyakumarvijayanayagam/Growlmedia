@@ -470,7 +470,7 @@ html, body {
     zoom: 0.80; 
   }
 }
-@media screen and (min-width: 820px) and (max-width: 1180px) {
+@media screen and (width: 820px) and (width: 1180px) {
   body {
     zoom:0.58;
 }
