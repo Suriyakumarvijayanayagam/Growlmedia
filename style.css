@@ -6,7 +6,6 @@ body{
 }
 
 
-
 main {
   flex: 1; /* Pushes the footer to the bottom */
 }
@@ -25,6 +24,7 @@ html, body {
 
 .growl-media * {
   box-sizing: border-box;
+  max-width: 1920px;
 }
 .growl-media {
   background: #ffffff;
@@ -36,16 +36,17 @@ html, body {
   position: absolute;
   inset: 0;
 }
+
 .frame-113 {
   display: flex;
   flex-direction: column;
   gap: 0px;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 1441px;
-  height: 6805px;
+  /* width: 1441px;
+  height: 6805px; */
   position: absolute;
-  left: 1441px;
+  /* left: 1441px; */
   top: 759px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(-1, 1);
@@ -437,7 +438,32 @@ html, body {
 } 
 
  */
+ 
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+  body {
+    zoom: 1.33; 
+  }
+}
 
+
+@media screen and (min-width: 2560px) and (max-width: 3071px) {
+  body {
+    zoom: 1.8; 
+  }
+}
+
+
+@media screen and (min-width: 3072px) and (max-width: 3839px) {
+  body {
+    zoom: 1.75; 
+  }
+}
+
+@media screen and (min-width: 3840px) {
+  body {
+    zoom: 2.75; 
+  }
+}
 
 
  ._150-revenue-growth-only-through-content-marketing-brand-building {
@@ -584,11 +610,6 @@ html, body {
   line-height: 150%;
   font-weight: 400;
 } */
-@media screen and (min-width: 1920px) {
-  body {
-    zoom: 1.33; 
-  }
-}
 
 
 
@@ -1323,10 +1344,13 @@ html, body {
   top: 4px;
   overflow: visible;
 }
+
+
 .group-1597883321 {
   position: absolute;
   inset: 0;
 }
+
 .rectangle-2 {
   background: rgba(255, 255, 255, 0.06);
   border-radius: 20px;
@@ -3687,5 +3711,10 @@ left: 30%;
 ._21, ._22, ._23, ._24, ._25, ._26, ._27, ._28, ._29, ._30, ._31 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
 }
+
+
+
+
+
