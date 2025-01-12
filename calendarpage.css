@@ -624,6 +624,46 @@ html, body {
   top: 15%;
   height: 83.48%;
 }
+
+ 
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+  body {
+    zoom: 1.33; 
+  }
+}
+
+
+@media screen and (min-width: 2560px) and (max-width: 3071px) {
+  body {
+    zoom: 1.8; 
+  }
+}
+
+
+@media screen and (min-width: 3072px) and (max-width: 3839px) {
+  body {
+    zoom: 1.6; 
+  }
+}
+
+@media screen and (min-width: 3840px) {
+  body {
+    zoom: 2.75; 
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1336px) {
+  body {
+    zoom: 0.80; 
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+  body {
+    zoom:0.699;
+}
+}
+
+
 .component-37 {
   flex-shrink: 0;
   width: 49.12px;
