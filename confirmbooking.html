@@ -1,10 +1,11 @@
- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <meta name="viewport" content="width=1440">
-  <link rel="icon" type="image/png" href="assets/Fabicon.png">
+  <link rel="icon" type="image/png" href="assets\Fabicon.png">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <style>
     * {
       margin: 0;
@@ -57,6 +58,7 @@
       padding: 20px;
       background: #f8f9fa;
       border-radius: 8px;
+      flex-wrap: wrap;
     }
 
     .meeting-item {
@@ -64,6 +66,8 @@
       align-items: center;
       gap: 8px;
       color: #4a5568;
+      font-size: 14px;
+      flex: 1;
     }
 
     .form-group {
@@ -73,10 +77,12 @@
     .date-time-group {
       display: flex;
       gap: 16px;
+      flex-wrap: wrap;
     }
 
     .date-time-group .form-group {
       flex: 1;
+      min-width: 150px;
     }
 
     label {
@@ -115,7 +121,8 @@
 
     .radio-group {
       display: flex;
-      gap: 24px;
+      gap: 16px;
+      flex-wrap: wrap;
       margin-top: 8px;
     }
 
@@ -136,6 +143,7 @@
       display: flex;
       gap: 16px;
       margin-top: 40px;
+      justify-content: center;
     }
 
     .btn-book {
@@ -156,6 +164,22 @@
     }
 
     @media (max-width: 640px) {
+      body {
+        padding: 10px;
+      }
+
+      .form-container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+
       .meeting-details {
         flex-direction: column;
         gap: 16px;
@@ -163,12 +187,54 @@
 
       .date-time-group {
         flex-direction: column;
-        gap: 24px;
+        gap: 16px;
+      }
+
+      .button-container {
+        flex-direction: column;
+        gap: 12px;
       }
     }
+
+              
+          @media screen and (min-width: 1920px) and (max-width: 2559px) {
+            body {
+              zoom: 1.33; 
+            }
+          }
+
+
+          @media screen and (min-width: 2560px) and (max-width: 3071px) {
+            body {
+              zoom: 1.8; 
+            }
+          }
+
+
+          @media screen and (min-width: 3072px) and (max-width: 3839px) {
+            body {
+              zoom: 1.6; 
+            }
+          }
+
+          @media screen and (min-width: 3840px) {
+            body {
+              zoom: 2.75; 
+            }
+          }
+
+          @media screen and (min-width: 1024px) and (max-width: 1336px) {
+            body {
+              zoom: 0.80; 
+            }
+          }
+          @media screen and (min-width: 820px) and (max-width: 1180px) {
+            body {
+              zoom:0.699;
+          }
+          }
   </style>
   <title>Confirm Booking</title>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
   <div class="form-container">
@@ -232,7 +298,7 @@
             0-2 years
           </label>
           <label class="radio-option">
-            <input type="radio" name="experience" value="1-5 years" required>
+            <input type="radio" name="experience" value="2-5 years" required>
             2-5 years
           </label>
           <label class="radio-option">
@@ -331,6 +397,5 @@
     });
   </script>
 </body>
-</html> 
-
+</html>
 
