@@ -455,7 +455,7 @@ html, body {
 
 @media screen and (min-width: 3072px) and (max-width: 3839px) {
   body {
-    zoom: 1.75; 
+    zoom: 1.6; 
   }
 }
 
@@ -465,6 +465,16 @@ html, body {
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1336px) {
+  body {
+    zoom: 0.80; 
+  }
+}
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+  body {
+    zoom:0.699;
+}
+}
 
  ._150-revenue-growth-only-through-content-marketing-brand-building {
   color: #ffffff;
