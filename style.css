@@ -4,6 +4,9 @@ body{
   
 
 }
+
+
+
 main {
   flex: 1; /* Pushes the footer to the bottom */
 }
@@ -581,6 +584,11 @@ html, body {
   line-height: 150%;
   font-weight: 400;
 } */
+@media screen and (min-width: 1920px) {
+  body {
+    zoom: 1.33; 
+  }
+}
 
 
 
