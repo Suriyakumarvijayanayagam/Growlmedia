@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
   <meta name="viewport" content="width=1440">
-  <link rel="icon" type="image/png" href="assets/Fabicon.png">
+  <link rel="icon" type="image/png" href="assets\Fabicon.png">
 
   
   
@@ -573,7 +573,7 @@
         <!-- <div class="connect-now">Connect Now</div> -->
         <div 
             class="connect-now" 
-            style="padding: 10px 20px; border: 1px solid #c7a253; border-radius: 20px; cursor: pointer; transition: transform 0.3s, background-color 0.3s;" 
+            style="padding: 10px 20px; border-radius: 20px; cursor: pointer; transition: transform 0.3s, background-color 0.3s;" 
             onclick="document.querySelector('.group3').scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' });"
             onmouseover="this.style.transform='scale(1.1)'; this.style.backgroundColor='rgba(199, 162, 83, 0.2)';"
             onmouseout="this.style.transform='scale(1)'; this.style.backgroundColor='transparent';">
@@ -933,35 +933,50 @@
     </div>
     <div class="frame-31">
       <div class="group-1597883332">
-        <div class="instagram">Instagram</div>
-        <a href="https://www.instagram.com/abhinav._official_/" target="_blank" rel="noopener noreferrer">
-          <div class="instagram2">
-            <div class="round"></div>
-            <img class="instagram3" src="assets\instagram2.svg" style="cursor: pointer;" />
-          </div>
+        <div class="group-1597883332">
+         
+          <a href="https://www.instagram.com/abhinav._official_/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+             
+              <div class="instagram" style="cursor: pointer;">Instagram</div>
+              
+              <div class="instagram2">
+                  <div class="round"></div>
+                  <img class="instagram3" src="assets/instagram2.svg" style="cursor: pointer;" />
+              </div>
+          </a>
+      </div>
+      
         </a>
       </div>
-      <div class="group-1597883331">
-        <div class="linkedin">Linkedin</div>
-        <a href="https://linkedin.com/in/theabhinav/" target="_blank" rel="noopener noreferrer">
-          <div class="linkedin2">
-            <div class="round2"></div>
-            <div class="linkedin3">
-              <img class="brand-logos" src="assets\brand-logos0.svg" style="cursor: pointer;" />
+      <div class="group-1597883332">
+        <!-- Entire LinkedIn link area -->
+        <a href="https://linkedin.com/in/theabhinav/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+            <!-- Clickable LinkedIn text -->
+            <div class="linkedin" style="cursor: pointer;">Linkedin</div>
+            <!-- Clickable LinkedIn icon -->
+            <div class="linkedin2">
+                <div class="round2"></div>
+                <div class="linkedin3">
+                    <img class="brand-logos" src="assets/brand-logos0.svg" style="cursor: pointer;" />
+                </div>
             </div>
-          </div>
         </a>
-        
-      </div>
+    </div>
+    
       <div class="group-1597883333">
-        <div class="youtube">Youtube</div>
+        <a href="https://youtube.com/@abhinav._official1" target="_blank" rel="noopener noreferrer">
+        <div class="youtube" style="cursor: pointer;">Youtube</div>
+      </a>
         <div class="linkedin-1">
           <div class="round3"></div>
           <div class="linkedin4"></div>
         </div>
       </div>
       <div class="group-1597883330">
+         
+      <a href="https://fiverr.com/abhinav0091" target="_blank" rel="noopener noreferrer">
         <div class="fiverr">Fiverr</div>
+        </a>
         <div class="linkedin-1">
           <div class="round4"></div>
           <div class="linkedin5"></div>
@@ -1230,6 +1245,23 @@
         dayElement.appendChild(number);
         container.appendChild(dayElement);
     }
+
+          document.addEventListener("DOMContentLoaded", function () {
+        // Check the screen width
+        if (window.innerWidth <= 768) {
+          // If screen width is 768px or smaller, load the mobile CSS
+          const mobileLink = document.createElement("link");
+          mobileLink.rel = "stylesheet";
+          mobileLink.href = "mobile.css";
+          document.head.appendChild(mobileLink);
+        } else {
+          // Otherwise, load the desktop CSS
+          const desktopLink = document.createElement("link");
+          desktopLink.rel = "stylesheet";
+          desktopLink.href = "style.css";
+          document.head.appendChild(desktopLink);
+        }
+      });
 
 
     // window.addEventListener('DOMContentLoaded', () => {
